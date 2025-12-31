@@ -8,3 +8,22 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# dbt
+target/
+logs/
+dbt_packages/
+
+# Secrets
+profiles.yml
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
